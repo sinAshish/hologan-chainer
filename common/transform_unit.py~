@@ -1,0 +1,22 @@
+import numpy as np
+
+import chainer
+from chainer import functions as F
+
+
+class TransformUnit(chainer.Chain):
+
+    def __init__(self):
+        pass
+
+    def transform(self, x, theta):
+        
+
+    def __call__(self, x, theta):
+        # first transform the input features
+
+        # perform interpolation to get output feature map
+
+
+if __name__ == "__main__":
+    transform = TransformUnit()
