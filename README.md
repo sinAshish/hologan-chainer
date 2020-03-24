@@ -32,7 +32,12 @@ python train.py --epochs 2000 --save_dir 'output' --batch_size 64 --use_style --
 
 ## Results
 
-![gif](cats.gif)
+<p><table>
+  <tr valign="top">
+    <td width="100%"><img src="images/cats.gif" alt="cats" /></td>
+  </tr>
+</table></p>
+
 
 NOTE : This code was written during my internship period as a trial project before the authors had published their code, so there would be some inconsistencies with the [Author's implementation](https://github.com/thunguyenphuoc/HoloGAN).
 
